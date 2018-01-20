@@ -1,0 +1,13 @@
+{
+  "name": "monogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mvn exec:java -Dexec.mainClass='monogram.App'",
+    "start:debug": "mvn exec:exec -Dexec.executable='java' -Dexec.args='-classpath %classpath -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=1044 monogram.App'"
+  },
+  "author": "Jess Lorantfy",
+  "license": "MIT"
+}
